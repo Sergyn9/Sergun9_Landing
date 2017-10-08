@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #f8f8f8;
+  font-family: 'Arial' , sans-serif; }
+
+h1 {
+  font-size: 72px;
+  font-weight: bold;
+  color: #fff; }
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #333; }
+
+h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff; }
+
+p {
+  font-size: 18px;
+  color: #333; }
+
+/*---------start of header-----------*/
+.header {
+  background-image: url(../img/intro-bg.jpg);
+  height: 799px;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+          background-size: cover;
+  text-align: center; }
+  .header h1 {
+    padding-top: 288px;
+    margin-bottom: 14px; }
+
+.header ul {
+  list-style: none;
+  margin-top: 43px; }
+
+.header ul li {
+  display: inline-block;
+  margin: 0 17px; }
+
+.header ul li a {
+  display: block;
+  width: 163px;
+  height: 50px;
+  text-indent: -9000px; }
+
+.content {
+  width: 1064px;
+  margin: 0 auto; }
+
+.row {
+  overflow: hidden;
+  padding: 50px 0; }
+
+.left {
+  width: 490px;
+  float: left; }
+
+.right {
+  width: 478px;
+  float: right; }
+
+.row h2 {
+  margin: 70px 0 20px 0; }
+
+.footer {
+  background-image: url(../img/banner-bg-u146-fr.jpg);
+  height: 531px;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  .footer h2 {
+    color: #fff;
+    font-weight: normal;
+    width: 435px;
+    float: left;
+    margin-top: 247px; }
+
+.footer ul {
+  float: right;
+  list-style: none;
+  margin-right: 6px; }
+
+.footer ul li {
+  float: left;
+  margin-left: 35px;
+  margin-top: 241px; }
+
+.footer ul li a {
+  display: block;
+  width: 163px;
+  height: 50px;
+  text-indent: -9000px; }
+
+.twit {
+  background-image: url(../img/u85.png); }
+  .twit:hover {
+    background-image: url(../img/u85-r.png); }
+
+.goog {
+  background-image: url(../img/u80.png); }
+  .goog:hover {
+    background-image: url(../img/u80-r.png); }
+
+.vk {
+  background-image: url(../img/u90.png); }
+  .vk:hover {
+    background-image: url(../img/u90-r.png); }
